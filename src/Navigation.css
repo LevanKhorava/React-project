@@ -1,0 +1,38 @@
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    flex-wrap: wrap;
+    
+    
+}
+
+header{
+    width:100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+nav ul li a{
+    color:rgb(255, 166, 0);
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.active{
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 30%;
+    padding:5px;
+}
